@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shittoruad-gif.github.io/tuoksu-salon/sitemap.xml
+Sitemap: https://tuoksu-salon.netlify.app/sitemap.xml
