@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shittoruad-gif.github.io/tuoksu-salon/sitemap.xml
