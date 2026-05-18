@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>beauty salon tuoksu | 藤枝市の毛穴ケア専門サロン</title>
   <meta name="description" content="静岡県藤枝市の毛穴ケア専門サロン。毛穴エクストラクション・ハイドロスプラッシュで肌質改善。どこに行っても改善できなかった方の駆け込みサロン。">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8b7355">
+  <link rel="canonical" href="https://shittoruad-gif.github.io/tuoksu-salon/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="beauty salon tuoksu | 藤枝市の毛穴ケア専門サロン">
+  <meta property="og:description" content="静岡県藤枝市の毛穴ケア専門サロン。毛穴エクストラクション・ハイドロスプラッシュで肌質改善。">
+  <meta property="og:url" content="https://shittoruad-gif.github.io/tuoksu-salon/">
+  <meta property="og:locale" content="ja_JP">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%238b7355'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='38'%20fill='%23faf8f5'%20text-anchor='middle'%3Et%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20fill='%238b7355'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='38'%20fill='%23faf8f5'%20text-anchor='middle'%3Et%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,8 +66,11 @@
           </div>
         </div>
         <div class="about-image">
-          <div class="about-image-placeholder">
-            <span>Salon Image</span>
+          <div class="about-visual">
+            <span class="about-visual-mark">tuoksu</span>
+            <span class="about-visual-sub">beauty salon</span>
+            <span class="about-visual-divider"></span>
+            <span class="about-visual-tag">毛穴ケア専門サロン<br>静岡県藤枝市</span>
           </div>
         </div>
       </div>
@@ -297,7 +310,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 beauty salon tuoksu. All rights reserved.</p>
+        <p>&copy; <span id="year">2026</span> beauty salon tuoksu. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -365,6 +378,10 @@
       el.classList.add('fade-in');
       observer.observe(el);
     });
+
+    // コピーライト年を自動更新
+    var y = document.getElementById('year');
+    if (y) y.textContent = new Date().getFullYear();
   </script>
 </body>
 </html>

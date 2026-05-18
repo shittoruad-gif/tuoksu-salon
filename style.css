@@ -380,16 +380,50 @@ a:hover {
   letter-spacing: 0.05em;
 }
 
-.about-image-placeholder {
+.about-visual {
   width: 100%;
   aspect-ratio: 4/5;
-  background: linear-gradient(135deg, var(--color-bg-alt), var(--color-border));
+  background: linear-gradient(155deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   border-radius: 8px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--color-text-light);
-  font-size: 0.875rem;
+  text-align: center;
+  padding: 32px;
+  box-shadow: 0 8px 30px rgba(107, 86, 64, 0.18);
+}
+
+.about-visual-mark {
+  font-family: var(--font-en);
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: var(--color-white);
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+.about-visual-sub {
+  font-family: var(--font-en);
+  font-size: 1rem;
+  color: var(--color-accent);
+  letter-spacing: 0.32em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.about-visual-divider {
+  width: 44px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 24px 0;
+}
+
+.about-visual-tag {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.12em;
+  line-height: 2;
 }
 
 /* --- Menu --- */
@@ -766,6 +800,19 @@ a:hover {
   color: var(--color-text-light);
   font-size: 0.9375rem;
   line-height: 2;
+}
+
+.privacy-operator {
+  margin: 24px 0 8px;
+  padding: 20px 24px;
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 6px;
+}
+
+.privacy-operator p {
+  margin-bottom: 4px !important;
+  font-size: 0.9375rem;
 }
 
 .privacy-contact {
